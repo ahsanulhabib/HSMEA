@@ -1,0 +1,17 @@
+Global.metric = 'ED';
+Global.surrogates = {'krig','prs1','prs2','rbf'};
+Global.baseseed = 199;
+Global.fitcons = 0; % 1 for fitting surrogate models for constraints, 0 for actually evaluating constraint functions
+Global.fitobjs = 1;
+Global.training_data = 0.8;
+Global.testing_data = 0.2;
+Global.mu = 5;
+Global.localimprovement = 1;
+Global.numRVset = 2; % 1 for single set of RVs, 2 for dual set of RVs
+Global.crossover_pr = 1.0;
+Global.crossover_sbx = 30;
+Global.mutation_pr = 0.1;
+Global.mutation_poly = 20;
+Global.CR = Global.crossover_pr;
+Global.F = 0.5;
+Global.numruns = 25; % Set the number of independent runs
